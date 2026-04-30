@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas-Enlaces</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Inicio</li>
+            <li>Blog</li>
+            <li>Proyectos</li>
+            <li>Contactos</li>
+        </ul>
+    </header>
+    <main>
+        <h2>Recetario</h2>
+        <ol>
+            <li>Pastel de papa</li>
+            <li>Omelet</li>
+            <li>Torreja vegetariana</li>
+        </ol>
+        <hr>
+        <div>
+            <ul>
+                <li>Frontend
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>                    
+                </li>
+                <li>Backend
+                    <ul>
+                        <li>API</li>
+                        <li>Postgresql</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <h2>Contenidos</h2>
+            <ul>
+                <li id="lista1">
+                    <a href="https://portal.unamad.edu.pe/#" target="_blank">Unamad</a>
+                </li>
+                <li id="seccion1"> 
+                    <a href="#seccion1">Noticia Nacional</a>
+                </li>
+                <li id="seccion2"> 
+                    <a href="#seccion2">Noticia Regional</a>
+                </li>
+                <li id="seccion3">
+                    <a href="#seccion3">Noticia Local</a>
+                </li>
+            </ul>
+        </div>
+        <section>
+            <h3 id="seccion1">Noticias Nacionales</h3>
+            <img 
+                src="./imagenes/sample-city-park-400x300.jpg" 
+                alt="Caminando solo en el parque"
+                width="360"
+                height="240"
+            >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium facere iusto, molestiae fugit ad similique eveniet nihil facilis aliquid dicta officiis doloremque ipsam enim expedita beatae, hic illo perferendis temporibus.</p>
+        </section>
+        <hr>
+        <section>
+            <h3 id="seccion2">Noticias Regionales</h3>
+            <!-- Video de niños jugando -->
+            <video controls width="540" height="360" poster="./imagenes/ninos_jugando.jpg">
+                <source src="./videos/videoAprendizaje1.mp4">
+                Tu navegador no soporta la etiqueta de video
+            </video>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere fugiat aliquid accusamus dolorem tempore beatae rerum ad, asperiores repudiandae nisi libero explicabo reiciendis iste sequi cum nihil omnis aut tempora.</p>
+        </section>
+        <section id="seccion3">
+            <h3>Noticias Locales</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quos blanditiis ad aspernatur debitis alias ea totam laboriosam sit dicta. Modi rerum, qui aliquid tempore minus sed blanditiis ullam ab.</p>
+            <!-- audio de musica -->
+            <audio controls>
+                <source src="./audio/musica.mp3">
+                Tu navegador no soporta la etiqueta de audio
+            </audio>
+        </section>
+    </main>
+    <footer>
+        <h3>Correo institucional</h3>
+        <p>Email
+            <a href="mailto:djaramillo@unamad.edu.pe">djaramillo@unamad.edu.pe</a>
+        </p>
+    </footer>
+</body>
+</html>
